@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-	title: 'Newest Films',
+	title: 'Fresh cinema hits 🎞️ 🍿',
 	description:
 		'Check out the newly released movies and choose the best one for you to watch in the cinema.',
 	icons: { icon: './favicon.ico' },

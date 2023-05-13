@@ -12,7 +12,7 @@ export default async function Home() {
 		<main>
 			<header className='flex flex-col items-center  font-bold text-rose-600 my-5 md:my-8 p-5 md:p-8'>
 				<h1 className='flex justify-center text-4xl sm:text-5xl font-bold text-rose-600 my-1 md:my-3'>
-					Newest Films
+					Newest Movies
 				</h1>
 				<p className=' md:text-xl text-slate-500 p-3 text-center'>
 					Check out the newly released movies and choose the best one for you to

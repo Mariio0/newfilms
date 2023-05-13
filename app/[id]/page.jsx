@@ -6,7 +6,6 @@ export default async function MovieDetail({ params }) {
 	const backdropPath = 'https://www.themoviedb.org/t/p/original';
 	const { id } = params;
 
-	// 'https://api.themoviedb.org/3/movie/{movie_id}'
 	const res = await fetch(
 		`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.API_KEY}`
 	);
@@ -84,20 +83,13 @@ export default async function MovieDetail({ params }) {
 					</div>
 				</div>
 
-				{/* <Movie
-				key={data.id}
-				id={data.id}
-				title={data.title}
-				poster_path={data.poster_path}
-				release_date={data.release_date}
-			/> */}
 				<div className='w-full lg:h-[650px] my-5 md:my-16 relative overflow-hidden lg:rounded-xl'>
 					<Image
 						className='transform scale-150 my-10 sm:scale-100 sm:my-5 lg:rounded-xl'
 						src={backdropPath + data.backdrop_path}
 						alt='sds'
 						width={4000}
-						height={4000}
+						height={2000}
 						priority
 					></Image>
 				</div>
