@@ -8,4 +8,4 @@ Check out the newly released movies and choose the best one for you to watch in 
 
 ![Demo](./demo.png)
 
-## **Tech Stack:** NextJS, TailwindCSS
+## **Tech Stack:** NextJS, React, TailwindCSS
